@@ -15,7 +15,7 @@ int main()
    DynIntStack stack; 
    int popped_value;
    // Push values 5, 10, and 15 on the stack
-   for (int value = 5; value <= 15; value = value + 5)
+   for (int value = 50; value <= 150; value = value + 50)
    {
       cout << "Push: " << value << "\n";
       stack.push(value);
